@@ -11,7 +11,7 @@ const Home = () => {
             <main>
                 <article class="movie movie--desiderare">
                     <div id="desiderare" class="movieTitle">
-                        <Link to="/desiderare">DESIDERARE: <br></br>cor ne adito</Link>
+                        <Link to="/desiderare">DESIDERARE: <br/>cor ne adito</Link>
                     </div>
                 </article>
                 <article class="movie movie--apache">
@@ -26,7 +26,7 @@ const Home = () => {
                 </article> 
                 <article class="movie movie--piscine">
                     <div id="piscine" class="movieTitle">
-                        <Link to="/piscine">5H MOINS 20 <br></br>à la piscine</Link>
+                        <Link to="/piscine">5H MOINS 20 <br/>à la piscine</Link>
                     </div>
                 </article> 
                 <article class="movie movie--chienne">

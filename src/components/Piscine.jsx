@@ -1,10 +1,74 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
+/***** COMPONENTS *****/
+import Header from './Header.jsx';
  
 const Piscine = () => {
     return(
-        <div>
-            Piscine
+        <div class="movieSection">
+            <Header/>
+            <main>
+                <section class="movieCover piscine">
+                <div class="movieCover__infos movieCover__infos--piscine">
+                    <div class="movieCover__title movieCover__title--extra">
+                    <div>
+                        <p>5</p><p>H</p><p> </p><p>M</p><p>O</p><p>I</p><p>N</p><p>S</p><p> </p><p>2</p><p>0</p>
+                    </div>
+                    <div>
+                        <p>À</p><p>L</p><p>A</p><p>P</p><p>I</p><p>S</p><p>C</p><p>I</p><p>N</p><p>E</p>
+                    </div>
+                    </div>
+                    <div class="movieCover__details">
+                    <div class="movieCover__description">
+                        <p class="movieCover__time">2'20</p>
+                        <div class="movieCover__type">
+                        <p>C</p><p>O</p><p>U</p><p>R</p><p>T</p><p>-</p><p>M</p><p>É</p><p>T</p><p>R</p><p>A</p><p>G</p><p>E</p>
+                        </div>
+                        <p class="movieCover__date">2018</p>
+                    </div>
+                    <div class="movieCover__prom desktop piscine">
+                        <div class="movieCover__selection">
+                        <h3>Séléction Festival</h3>
+                        <p>Nikon Festival : Prix des Écoles</p>
+                        </div>
+                        <div class="movieCover__press">
+                        <h3>Articles :</h3>
+                        <ul>
+                            <li><a href="https://www.lesinrocks.com/2018/01/09/contenu-partenaire/contenu-partenaire/nikon-film-festival-les-5-courts-metrages-indispensables-voir/" target="_blank">Les Inrockuptibles</a></li>
+                            <li><a href="https://www.konbini.com/fr/entertainment-2/nikon-film-festival-2018-les-10-court-metrages-qui-ont-marque-la-redaction/" target="_blank">Konbini</a></li>
+                            <li><a href="https://www.madmoizelle.com/je-suis-5h-moins-20-nikon-film-festival-2018-870361" target="_blank">Madmoizelle</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="movieCover__img movieCover__img--piscine"></div>
+                </section>
+                <div class="movieCover__prom movieCover__prom--piscine mobile">
+                <div class="movieCover__selection">
+                    <h3>Séléction Festival</h3>
+                    <p>Nikon Festival : parmi les 50 finalistes</p>
+                </div>
+                <div class="movieCover__press">
+                    <h3>Articles :</h3>
+                    <ul>
+                    <li><a href="https://www.lesinrocks.com/2018/01/09/contenu-partenaire/contenu-partenaire/nikon-film-festival-les-5-courts-metrages-indispensables-voir/" target="_blank">Les Inrockuptibles</a></li>
+                    <li><a href="https://www.konbini.com/fr/entertainment-2/nikon-film-festival-2018-les-10-court-metrages-qui-ont-marque-la-redaction/" target="_blank">Konbini</a></li>
+                    <li><a href="https://www.madmoizelle.com/je-suis-5h-moins-20-nikon-film-festival-2018-870361" target="_blank">Madmoizelle</a></li>
+                    </ul>
+                </div>
+                </div>
+                <div class="galery">
+                <ul>
+                    <li><img src="/imgs/piscine1.jpg" alt=""/></li>
+                    <li><img src="/imgs/piscine2.jpg" alt=""/></li>
+                    <li><img src="/imgs/piscine3.jpg" alt=""/></li>
+                    <li><img src="/imgs/piscine4.jpg" alt=""/></li>
+                </ul>
+                </div>
+                <button class="btnMovie btnMovie--piscine"><a href="https://vimeo.com/272772038" target="_blank">Voir le film</a></button>
+            </main>
         </div>
     );
 }
