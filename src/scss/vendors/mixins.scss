@@ -1,6 +1,26 @@
+// FLEXBOX
+
 @mixin flexbox($direction, $justify, $align) {
     display: flex;
     flex-direction: $direction;
     justify-content: $justify;
     align-items: $align;
+}
+
+// MEDIA QUERY
+
+@mixin tall {
+	@media screen and (min-width: 768px) {
+		@content;
+	}
+}
+
+// TEXT CLIP 
+
+@mixin textClip {
+	color: transparent;
+	-webkit-background-clip: text;
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-position: center; 
 }

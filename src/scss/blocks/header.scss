@@ -1,0 +1,44 @@
+header {
+	color: $third-color; 
+	@include flexbox(row, center, center); 
+	padding: 0 5rem;
+	margin: 2rem 0;
+	transition: all 0.5s; 
+	z-index: 2;
+
+	@include tall {
+		padding: 20px 15px 0px 15px;
+		color: $third-color; 
+	}
+
+	h1 {
+		font-size: 1.5rem; 
+
+		@include tall {
+			font-size: 2rem;
+		}
+	}
+}
+
+.header--movies {
+	color: $third-color; 
+
+	h1 {
+
+		@include tall {
+			position: fixed;
+			top: 20px; 
+			left: 15px; 
+		}
+	}
+}
+
+@include tall {
+	header.is-changed {
+		h1,
+		.navItem {
+			@include textClip;	
+			background-image: url('/imgs/bg_small.jpg'); 
+		}
+	}
+}

@@ -5,7 +5,10 @@
 @import 'vendors/vars.scss';
 @import 'vendors/mixins.scss';
 @import 'vendors/reset.scss';
+@import 'vendors/set_template.scss';
 
 /***** COMPONENTS *****/
+@import 'components/home.scss';
 
 /***** BLOCKS *****/
+@import 'blocks/header.scss';
