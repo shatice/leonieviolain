@@ -11,27 +11,27 @@ const Home = () => {
             <main>
                 <article class="movie movie--desiderare">
                     <div id="desiderare" class="movieTitle">
-                        <a href="./pages/desiderare.html">DESIDERARE: <br></br>cor ne adito</a>
+                        <Link to="/desiderare">DESIDERARE: <br></br>cor ne adito</Link>
                     </div>
                 </article>
                 <article class="movie movie--apache">
                     <div id="apache" class="movieTitle">
-                        <a href="./pages/apache.html">L'APACHE</a>
+                        <Link to="/apache">L'APACHE</Link>
                     </div>
                 </article> 
                 <article class="movie movie--raptus">
                     <div id="raptus" class="movieTitle">
-                        <a href="./pages/raptus.html">RAPTUS</a>
+                        <Link to="/raptus">RAPTUS</Link>
                     </div>
                 </article> 
                 <article class="movie movie--piscine">
                     <div id="piscine" class="movieTitle">
-                        <a href="./pages/piscine.html">5H MOINS 20 <br></br>à la piscine</a>
+                        <Link to="/piscine">5H MOINS 20 <br></br>à la piscine</Link>
                     </div>
                 </article> 
                 <article class="movie movie--chienne">
                     <div id="chienne" class="movieTitle">
-                        <a href="./pages/chienne.html">CHIENNE</a>
+                        <Link to="/chienne">CHIENNE</Link>
                     </div>
                 </article>
             </main>
