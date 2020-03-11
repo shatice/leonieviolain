@@ -10,7 +10,7 @@ import './home.scss';
 import moviesLink from '../../datas/moviesLink';
 
 /***** COMPONENTS *****/
-import Header from '../Header/Header';
+import Header from '../header/Header';
 
 const Home = () => {
 	return (

@@ -1,4 +1,6 @@
 import React from "react";
+
+/***** ROUTER *****/
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
 /***** STYLES *****/

@@ -41,56 +41,56 @@
 /*********** Modifiers ***********/
 
 .movie--desiderare {
-	background-image: url('/imgs/desiderare_medium.jpg'); 
+	background-image: url('../../assets/images/desiderare_medium.jpg'); 
 
 	.movieTitle {
 		
 		@include tall {
-			background-image: url('/gifs/desiderare.gif');
+			background-image: url('../../assets/gifs/desiderare.gif');
 		}
 	}
 }
 
 .movie--apache {
-	background-image: url('/imgs/apache_medium.jpg'); 
+	background-image: url('../../assets/images/apache_medium.jpg'); 
 
 	.movieTitle {
 		
 		@include tall {
-			background-image: url('/gifs/apache.gif');
+			background-image: url('../../assets/gifs/apache.gif');
 		}
 	}
 }
 
 .movie--raptus {
-	background-image: url('/imgs/raptus_medium.jpg'); 
+	background-image: url('../../assets/images/raptus_medium.jpg'); 
 
 	.movieTitle {
 		
 		@include tall {
-			background-image: url('/gifs/raptus.gif');
+			background-image: url('../../assets/gifs/raptus.gif');
 		}
 	}
 }
 
 .movie--piscine {
-	background-image: url('/imgs/piscine_medium.jpg'); 
+	background-image: url('../../assets/images/piscine_medium.jpg'); 
 
 	.movieTitle {
 		
 		@include tall {
-			background-image: url('/gifs/piscine.gif');
+			background-image: url('../../assets/gifs/piscine.gif');
 		}
 	}
 }
 
 .movie--chienne {
-	background-image: url('/imgs/chienne_medium.jpg'); 
+	background-image: url('../../assets/images/chienne_medium.jpg'); 
 
 	.movieTitle {
 		
 		@include tall {
-			background-image: url('/gifs/chienne.gif');
+			background-image: url('../../assets/gifs/chienne.gif');
 		}
 	}
 }
@@ -122,6 +122,6 @@
 
 @include tall {
 	.movieTitle.is-changed {
-		background-image: url('/imgs/bg_small.jpg'); 
+		background-image: url('../../assets/images/bg_small.jpg'); 
 	}
 }

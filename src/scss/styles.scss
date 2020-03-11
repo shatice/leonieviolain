@@ -1,11 +1,9 @@
+/***** FONTS *****/
+@import 'fonts/primary_font.scss';
+@import 'fonts/secondary_font.scss';
+
 /***** VENDORS *****/
-@import 'vendors/fonts/primary_font.scss';
-@import 'vendors/fonts/secondary_font.scss';
 @import 'vendors/vars.scss';
 @import 'vendors/mixins.scss';
 @import 'vendors/reset.scss';
 @import 'vendors/set_template.scss';
-
-/***** BLOCKS *****/
-// @import 'blocks/header.scss';
-@import 'blocks/galery.scss';

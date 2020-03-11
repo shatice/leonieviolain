@@ -7,8 +7,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './scss/styles.scss';
 
 /***** COMPONENTS *****/
-import Home from './components/Home/Home';
-import Movie from './components/Movie/Movie';
+import Home from './components/home/Home';
+import Movie from './components/movie/Movie';
 
 const App = () => (
   <Router>

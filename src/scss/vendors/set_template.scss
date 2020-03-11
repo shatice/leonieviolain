@@ -2,7 +2,7 @@ body {
     font-family: $primary-font;
     color: $third-color;
 
-    background-image: url('/imgs/bg_small.jpg'); 
+    background-image: url('../../assets/images/bg_small.jpg'); 
     background-attachment: fixed; 
     background-size: cover; 
     background-position: center; 
@@ -11,29 +11,29 @@ body {
     overflow-x: hidden;
   
     @include tall {
-        background-image: url('/imgs/bg_tall.jpg'); 
+        background-image: url('../../assets/images/bg_tall.jpg'); 
     }
   
     @include tall {
-        background-image: url('/imgs/bg_tall.jpg'); 
+        background-image: url('../../assets/images/bg_tall.jpg'); 
     }
   }
   
   @include tall {
     body.is-changed-desiderare {
-      background-image: url('/gifs/desiderare.gif'); 
+      background-image: url('../../assets/gifs/desiderare.gif'); 
     }
       body.is-changed-apache {
-        background-image: url('/gifs/apache.gif'); 
+        background-image: url('../../assets/gifs/apache.gif'); 
       }
       body.is-changed-raptus {
-        background-image: url('/gifs/raptus.gif'); 
+        background-image: url('../../assets/gifs/raptus.gif'); 
       }
       body.is-changed-piscine {
-        background-image: url('/gifs/piscine.gif'); 
+        background-image: url('../../assets/gifs/piscine.gif'); 
       }
       body.is-changed-chienne {
-        background-image: url('/gifs/chienne.gif'); 
+        background-image: url('../../assets/gifs/chienne.gif'); 
       }
   }
   
@@ -113,62 +113,62 @@ body {
   }
   
   .movieCover__img--desiderare {
-    background-image: url('/imgs/desiderareCover_small.jpg'); 
+    background-image: url('../../assets/images/desiderareCover_small.jpg'); 
   
     @include tall {
-      background-image: url('/imgs/desiderareCover_tall.jpg'); 
+      background-image: url('../../assets/images/desiderareCover_tall.jpg'); 
     }
   
     @include tall {
-      background-image: url('/imgs/desiderareCover_tall.jpg'); 
+      background-image: url('../../assets/images/desiderareCover_tall.jpg'); 
     }
   }
   
   .movieCover__img--apache {
-    background-image: url('/imgs/apacheCover_small.jpg');
+    background-image: url('../../assets/images/apacheCover_small.jpg');
   
     @include tall {
-      background-image: url('/imgs/apacheCover_tall.jpg');
+      background-image: url('../../assets/images/apacheCover_tall.jpg');
     }
   
     @include tall {
-      background-image: url('/imgs/apacheCover_tall.jpg');
+      background-image: url('../../assets/images/apacheCover_tall.jpg');
     }
   }
   
   .movieCover__img--raptus {
-    background-image: url('/imgs/raptusCover_small.jpg');
+    background-image: url('../../assets/images/raptusCover_small.jpg');
   
     @include tall {
-      background-image: url('/imgs/raptusCover_tall.jpg');
+      background-image: url('../../assets/images/raptusCover_tall.jpg');
     }
   
     @include tall {
-      background-image: url('/imgs/raptusCover_tall.jpg');
+      background-image: url('../../assets/images/raptusCover_tall.jpg');
     }
   }
   
   .movieCover__img--piscine {
-    background-image: url('/imgs/piscineCover_small.jpg');
+    background-image: url('../../assets/images/piscineCover_small.jpg');
   
     @include tall {
-      background-image: url('/imgs/piscineCover_tall.jpg');
+      background-image: url('../../assets/images/piscineCover_tall.jpg');
     }
   
     @include tall {
-      background-image: url('/imgs/piscineCover_tall.jpg');
+      background-image: url('../../assets/images/piscineCover_tall.jpg');
     }
   }
   
   .movieCover__img--chienne {
-    background-image: url('/imgs/chienneCover_small.jpg');
+    background-image: url('../../assets/images/chienneCover_small.jpg');
   
     @include tall {
-      background-image: url('/imgs/chienneCover_tall.jpg');
+      background-image: url('../../assets/images/chienneCover_tall.jpg');
     }
   
     @include tall {
-      background-image: url('/imgs/chienneCover_tall.jpg');
+      background-image: url('../../assets/images/chienneCover_tall.jpg');
     }
 }
 
