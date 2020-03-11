@@ -1,5 +1,7 @@
+@import '../../scss/styles.scss';
+
 .movie {
-	width: 100vw;
+  width: 100vw;
 	height: 80vh;
 	margin-top: 20px; 
 	background-size: cover;
@@ -48,6 +50,7 @@
 		}
 	}
 }
+
 .movie--apache {
 	background-image: url('/imgs/apache_medium.jpg'); 
 
@@ -58,6 +61,7 @@
 		}
 	}
 }
+
 .movie--raptus {
 	background-image: url('/imgs/raptus_medium.jpg'); 
 
@@ -68,6 +72,7 @@
 		}
 	}
 }
+
 .movie--piscine {
 	background-image: url('/imgs/piscine_medium.jpg'); 
 
@@ -78,6 +83,7 @@
 		}
 	}
 }
+
 .movie--chienne {
 	background-image: url('/imgs/chienne_medium.jpg'); 
 

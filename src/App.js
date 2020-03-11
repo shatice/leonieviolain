@@ -1,25 +1,21 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Link, useParams } from 'react-router-dom';
+
+/***** ROUTER *****/
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+/***** STYLES *****/
 import './scss/styles.scss';
 
 /***** COMPONENTS *****/
-import Home from './components/Home.jsx';
-import Chienne from './components/Chienne.jsx';
-import Piscine from './components/Piscine.jsx';
-import Raptus from './components/Raptus.jsx';
-import Apache from './components/Apache.jsx';
-import Desiderare from './components/Desiderare.jsx';
+import Home from './components/Home/Home';
+import Movie from './components/Movie/Movie';
 
 const App = () => (
   <Router>
-      <Switch>
-        <Route exact path="/" component={Home}/>
-        <Route name="" path="/chienne" component={Chienne}/>
-        <Route name="" path="/piscine" component={Piscine}/>
-        <Route name="" path="/raptus" component={Raptus}/>
-        <Route name="" path="/apache" component={Apache}/>
-        <Route name="" path="/desiderare" component={Desiderare}/>
-      </Switch>
+    <Switch>
+      <Route exact path="/" component={Home}/>
+      <Route name="movie" path="/movie" component={Movie}/>
+    </Switch>
   </Router>
 );
 

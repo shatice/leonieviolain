@@ -1,14 +1,16 @@
-header {
+@import '../../scss/styles.scss';
+
+.header {
 	color: $third-color; 
 	@include flexbox(row, center, center); 
 	padding: 0 5rem;
 	margin: 2rem 0;
 	transition: all 0.5s; 
-	z-index: 2;
+  z-index: 2;
 
 	@include tall {
 		padding: 20px 15px 0px 15px;
-		color: $third-color; 
+    color: $third-color; 
 	}
 
 	h1 {
@@ -20,7 +22,7 @@ header {
 	}
 }
 
-.movieSection header {
+.movieSection .header {
 	color: $third-color; 
 
 	h1 {
@@ -34,7 +36,8 @@ header {
 }
 
 @include tall {
-	header.is-changed {
+
+	.header.is-changed {
 		h1,
 		.navItem {
 			@include textClip;	

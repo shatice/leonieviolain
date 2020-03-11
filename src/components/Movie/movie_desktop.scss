@@ -1,3 +1,5 @@
+@import '../../scss/styles.scss';
+
 @include tall {
 
   /***** CONTAINER *****/
@@ -86,6 +88,17 @@
 
   .movieCover__img {
     width: 60%; 
+  }
+}
+
+@include tall {
+  .galery {
+    margin-top: 10rem;
+
+    ul {
+      width: 60%;
+      margin: 0 auto;
+    }
   }
 }
 
