@@ -1,12 +1,173 @@
 @import '../../scss/styles.scss';
-@import './movie_set_template.scss';
-@import './movie_mobile.scss'; 
-@import './movie_desktop.scss';
+@import './scss/movie_mobile.scss'; 
+@import './scss/movie_desktop.scss';
 
-// writing-mode: vertical-rl;
-// text-orientation: upright;
+/***** DESIDERARE *****/
+.moviePage.desiderare {
 
-.movieCover__title p {
-  // writing-mode: vertical-rl;
-  // text-orientation: upright;
+  /* COLORS */
+
+  .movieCover__infos,
+  .movieCover__prom {
+    .movieCover__title, 
+    .movieCover__time,
+    .movieCover__date, 
+    h3 {
+      color: $desiderare-color;
+    }
+  }
+
+  .btnMovie a {
+    color: $desiderare-color;
+  }
+
+  /* COVER IMAGE */
+
+  .movieCover__img {
+    background-image: url('../../assets/images/desiderareCover_small.jpg'); 
+  
+    @include tall {
+      background-image: url('../../assets/images/desiderareCover_tall.jpg'); 
+    }
+  
+    @include tall {
+      background-image: url('../../assets/images/desiderareCover_tall.jpg'); 
+    }
+  }
+}
+
+/***** APACHE *****/
+.moviePage.apache {
+
+  /* COLORS */
+
+  .movieCover__infos,
+  .movieCover__prom {
+    .movieCover__title, 
+    .movieCover__time,
+    .movieCover__date, 
+    h3 {
+      color: $apache-color;
+    }
+  }
+
+  .btnMovie a {
+    color: $apache-color;
+  }
+
+  /* COVER IMAGE */
+
+  .movieCover__img {
+    background-image: url('../../assets/images/apacheCover_small.jpg');
+
+    @include tall {
+      background-image: url('../../assets/images/apacheCover_tall.jpg');
+    }
+
+    @include tall {
+      background-image: url('../../assets/images/apacheCover_tall.jpg');
+    }
+  }
+}
+
+/***** RAPTUS *****/
+.moviePage.raptus {
+
+  /* COLORS */
+
+  .movieCover__infos,
+  .movieCover__prom {
+    .movieCover__title, 
+    .movieCover__time,
+    .movieCover__date, 
+    h3 {
+      color: $raptus-color;
+    }
+  }
+
+  .btnMovie a {
+    color: $raptus-color;
+  }
+
+  /* COVER IMAGE */
+
+  .movieCover__img {
+    background-image: url('../../assets/images/raptusCover_small.jpg');
+  
+    @include tall {
+      background-image: url('../../assets/images/raptusCover_tall.jpg');
+    }
+  
+    @include tall {
+      background-image: url('../../assets/images/raptusCover_tall.jpg');
+    }
+  }
+}
+
+/***** PISCINE *****/
+.moviePage.piscine {
+
+  /* COLORS */
+
+  .movieCover__infos,
+  .movieCover__prom {
+    .movieCover__title, 
+    .movieCover__time,
+    .movieCover__date, 
+    h3 {
+      color: $piscine-color;
+    }
+  }
+
+  .btnMovie a {
+    color: $piscine-color;
+  }
+
+  /* COVER IMAGE */
+
+  .movieCover__img {
+    background-image: url('../../assets/images/piscineCover_small.jpg');
+  
+    @include tall {
+      background-image: url('../../assets/images/piscineCover_tall.jpg');
+    }
+  
+    @include tall {
+      background-image: url('../../assets/images/piscineCover_tall.jpg');
+    }
+  }
+}
+
+/***** CHIENNE *****/
+.moviePage.chienne {
+
+  /* COLORS */
+
+  .movieCover__infos,
+  .movieCover__prom {
+    .movieCover__title, 
+    .movieCover__time,
+    .movieCover__date, 
+    h3 {
+      color: $chienne-color;
+    }
+  }
+
+  .btnMovie a {
+    color: $chienne-color;
+  }
+
+  /* COVER IMAGE */
+
+  .movieCover__img {
+    background-image: url('../../assets/images/chienneCover_small.jpg');
+  
+    @include tall {
+      background-image: url('../../assets/images/chienneCover_tall.jpg');
+    }
+  
+    @include tall {
+      background-image: url('../../assets/images/chienneCover_tall.jpg');
+    }
+  }
 }
