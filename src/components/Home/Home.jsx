@@ -17,28 +17,33 @@ const Home = () => {
 
 	/**
 	 * When hoverring a movie title, body's bg-image === title's bg-image
+	 * And title's + header's bg-image === body's bg-image
 	 */
 	const toggle = ( id ) => {
+		const header = document.querySelector('.header');
+
 		if ( isHovered ) {
 			setIsHovered(false); 
 			document.body.classList.remove( 'is-changed-' + id );
+			header.classList.remove( 'is-changed');
 		} else {
 			setIsHovered(true);
 			document.body.classList.add( 'is-changed-' + id );
+			header.classList.add( 'is-changed');
 		}
 	}
 
 	return (
 		<div id ="home" className="home">
 			<Header/>
-
 			<ul>
 				{ moviesLink ? moviesLink.map( c => <li className={ "movie movie--" + ( c.id ) } key={ c.id }>
 
 					<Link 
 					id={ c.id } 
-					className="movieTitle" 
+					className={ isHovered ? "movieTitle is-changed" : "movieTitle" } 
 					to="/movie" 
+					onClick={() => { toggle( c.id ) }}
 					onMouseEnter={() => { toggle( c.id ) }}
 					onMouseLeave={() => {  toggle( c.id ) }}>
 

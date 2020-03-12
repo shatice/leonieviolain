@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 import './header.scss'; 
  
 const Header = () => {
-	return(
+	return (
 		<header className="header">
 			<h1><Router><Link to="/">Léonie Violain</Link></Router></h1>
 		</header>

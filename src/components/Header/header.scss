@@ -38,8 +38,7 @@
 @include tall {
 
 	.header.is-changed {
-		h1,
-		.navItem {
+		h1 {
 			@include textClip;	
 			background-image: url('../../assets/images/bg_small.jpg'); 
 		}
