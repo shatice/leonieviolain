@@ -15,7 +15,7 @@ const Movie = () => {
 	return (
     <div>
       { moviesList ? moviesList.map( movie => 
-      <div className={"moviePage " + movie.id}>
+      <div className={"moviePage " + movie.id} key={ movie.id }>
         <MovieArticle />
         <Gallery />
         <BtnMovie />
