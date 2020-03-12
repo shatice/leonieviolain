@@ -1,174 +1,37 @@
 body {
-    font-family: $primary-font;
-    color: $third-color;
+  font-family: $primary-font;
+  color: $third-color;
 
-    background-image: url('../../assets/images/bg_small.jpg'); 
-    background-attachment: fixed; 
-    background-size: cover; 
-    background-position: center; 
-    
-    transition: all 0.5s;  
-    overflow-x: hidden;
+  background-image: url('../../assets/images/bg_small.jpg'); 
+  background-attachment: fixed; 
+  background-size: cover; 
+  background-position: center; 
   
-    @include tall {
-        background-image: url('../../assets/images/bg_tall.jpg'); 
-    }
-  
-    @include tall {
-        background-image: url('../../assets/images/bg_tall.jpg'); 
-    }
-  }
-  
+  transition: all 0.5s;  
+  overflow-x: hidden;
+
   @include tall {
-    body.is-changed-desiderare {
+    background-image: url('../../assets/images/bg_tall.jpg'); 
+
+    &.is-changed-desiderare {
       background-image: url('../../assets/gifs/desiderare.gif'); 
     }
-    body.is-changed-apache {
+
+    &.is-changed-apache {
       background-image: url('../../assets/gifs/apache.gif'); 
     }
-    body.is-changed-raptus {
+
+    &.is-changed-raptus {
       background-image: url('../../assets/gifs/raptus.gif'); 
     }
-    body.is-changed-piscine {
+
+    &.is-changed-piscine {
       background-image: url('../../assets/gifs/piscine.gif'); 
     }
-    body.is-changed-chienne {
+
+    &.is-changed-chienne {
       background-image: url('../../assets/gifs/chienne.gif'); 
     }
   }
-  
-  .movieCover__infos--desiderare,
-  .movieCover__prom--desiderare {
-  
-    .movieCover__title, 
-    .movieCover__time,
-    .movieCover__date,
-    h3 {
-      color: $desiderare-color;
-    }
-  }
-  
-  .btnMovie--desiderare a {
-    color: $desiderare-color;
-  }
-  
-  .movieCover__infos--apache,
-  .movieCover__prom--apache {
-  
-    .movieCover__title, 
-    .movieCover__time,
-    .movieCover__date, 
-    h3 {
-      color: $apache-color;
-    }
-  }
-  
-  .btnMovie--apache a {
-    color: $apache-color;
-  }
-  
-  .movieCover__infos--raptus,
-  .movieCover__prom--raptus {
-  
-    .movieCover__title, 
-    .movieCover__time,
-    .movieCover__date,
-    h3 {
-      color: $raptus-color;
-    }
-  }
-  
-  .btnMovie--raptus a {
-    color: $raptus-color;
-  }
-  
-  .movieCover__infos--piscine,
-  .movieCover__prom--piscine {
-  
-    .movieCover__title, 
-    .movieCover__time,
-    .movieCover__date,
-    h3 {
-      color: $piscine-color;
-    }
-  }
-  
-  .btnMovie--piscine a {
-    color: $piscine-color;
-  }
-  
-  .movieCover__infos--chienne,
-  .movieCover__prom--chienne {
-  
-    .movieCover__title, 
-    .movieCover__time,
-    .movieCover__date,
-    h3 {
-      color: $chienne-color;
-    }
-  }
-  
-  .btnMovie--chienne a {
-    color: $chienne-color;
-  }
-  
-  .movieCover__img--desiderare {
-    background-image: url('../../assets/images/desiderareCover_small.jpg'); 
-  
-    @include tall {
-      background-image: url('../../assets/images/desiderareCover_tall.jpg'); 
-    }
-  
-    @include tall {
-      background-image: url('../../assets/images/desiderareCover_tall.jpg'); 
-    }
-  }
-  
-  .movieCover__img--apache {
-    background-image: url('../../assets/images/apacheCover_small.jpg');
-  
-    @include tall {
-      background-image: url('../../assets/images/apacheCover_tall.jpg');
-    }
-  
-    @include tall {
-      background-image: url('../../assets/images/apacheCover_tall.jpg');
-    }
-  }
-  
-  .movieCover__img--raptus {
-    background-image: url('../../assets/images/raptusCover_small.jpg');
-  
-    @include tall {
-      background-image: url('../../assets/images/raptusCover_tall.jpg');
-    }
-  
-    @include tall {
-      background-image: url('../../assets/images/raptusCover_tall.jpg');
-    }
-  }
-  
-  .movieCover__img--piscine {
-    background-image: url('../../assets/images/piscineCover_small.jpg');
-  
-    @include tall {
-      background-image: url('../../assets/images/piscineCover_tall.jpg');
-    }
-  
-    @include tall {
-      background-image: url('../../assets/images/piscineCover_tall.jpg');
-    }
-  }
-  
-  .movieCover__img--chienne {
-    background-image: url('../../assets/images/chienneCover_small.jpg');
-  
-    @include tall {
-      background-image: url('../../assets/images/chienneCover_tall.jpg');
-    }
-  
-    @include tall {
-      background-image: url('../../assets/images/chienneCover_tall.jpg');
-    }
 }
 

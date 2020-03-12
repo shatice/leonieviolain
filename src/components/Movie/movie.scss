@@ -1,0 +1,12 @@
+@import '../../scss/styles.scss';
+@import './movie_set_template.scss';
+@import './movie_mobile.scss'; 
+@import './movie_desktop.scss';
+
+// writing-mode: vertical-rl;
+// text-orientation: upright;
+
+.movieCover__title p {
+  // writing-mode: vertical-rl;
+  // text-orientation: upright;
+}
